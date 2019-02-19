@@ -1,7 +1,6 @@
 // Write your code here
 function greet(input) {
 
-// const input = document.querySelector("input")
 const x = input.split(":")
 const hour = parseInt(x[0])
 
