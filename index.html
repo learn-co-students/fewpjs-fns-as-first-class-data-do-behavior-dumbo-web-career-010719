@@ -9,7 +9,7 @@
 <body>
   <form onsubmit="event.preventDefault();">
       <input type="time" id="time" name="time">
-      <input type="button" value="Submit" onclick="greet(document.getElementById('time').value)">
+      <input type="button" value="Submit" onclick="show(greet(document.getElementById('time').value))">
   </form>
   <h1 id="greeting"></h1>
   <script src="index.js"></script>
