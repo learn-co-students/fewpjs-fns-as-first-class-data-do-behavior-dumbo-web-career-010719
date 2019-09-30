@@ -1,13 +1,14 @@
-// Write your code here
+// // Write your code here
+// If the time is earlier than 12pm, return "Good Morning".
+// If the time is between 12pm and 5pm, return "Good Afternoon".
+// If the time is later than 5pm, return "Good Evening".
 function greet(time) {
-  let hello;
-    if (parseInt(time) < 12){
-      hello = "Good Morning"
-    } else if ((parseInt(time) > 12) && parseInt(time) < 17) {
-      hello = "Good Afternoon"
-    } else {
-      hello = "Good Evening"
-    }
-  document.querySelector("#greeting").innerHTML = hello;
-  return hello;
+  const timeToInt = parseInt(time.split(':'));
+  if (timeToInt < 12 ) {
+    return 'Good Morning'
+  }else if (timeToInt > 17) {
+    return 'Good Evening'
+  }else{
+    return 'Good Afternoon'
+  }
 };

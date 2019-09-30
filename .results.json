@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2019-09-30T21:16:27.240Z",
+    "end": "2019-09-30T21:16:27.892Z",
+    "duration": 652
+  },
+  "tests": [
+    {
+      "title": "Returns Good Morning before 12pm",
+      "fullTitle": "index.js Returns Good Morning before 12pm",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Good Morning'",
+        "showDiff": true,
+        "expected": "Good Morning",
+        "stack": "AssertionError: expected undefined to equal 'Good Morning'\n    at Context.it (test/indexTest.js:3:30)"
+      }
+    },
+    {
+      "title": "Returns Good Afternoon between 12pm and 5pm ",
+      "fullTitle": "index.js Returns Good Afternoon between 12pm and 5pm ",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Good Afternoon'",
+        "showDiff": true,
+        "expected": "Good Afternoon",
+        "stack": "AssertionError: expected undefined to equal 'Good Afternoon'\n    at Context.it (test/indexTest.js:6:31)"
+      }
+    },
+    {
+      "title": "Returns Good Evening after 5pm",
+      "fullTitle": "index.js Returns Good Evening after 5pm",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Good Evening'",
+        "showDiff": true,
+        "expected": "Good Evening",
+        "stack": "AssertionError: expected undefined to equal 'Good Evening'\n    at Context.it (test/indexTest.js:9:31)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Returns Good Morning before 12pm",
+      "fullTitle": "index.js Returns Good Morning before 12pm",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Good Morning'",
+        "showDiff": true,
+        "expected": "Good Morning",
+        "stack": "AssertionError: expected undefined to equal 'Good Morning'\n    at Context.it (test/indexTest.js:3:30)"
+      }
+    },
+    {
+      "title": "Returns Good Afternoon between 12pm and 5pm ",
+      "fullTitle": "index.js Returns Good Afternoon between 12pm and 5pm ",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Good Afternoon'",
+        "showDiff": true,
+        "expected": "Good Afternoon",
+        "stack": "AssertionError: expected undefined to equal 'Good Afternoon'\n    at Context.it (test/indexTest.js:6:31)"
+      }
+    },
+    {
+      "title": "Returns Good Evening after 5pm",
+      "fullTitle": "index.js Returns Good Evening after 5pm",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Good Evening'",
+        "showDiff": true,
+        "expected": "Good Evening",
+        "stack": "AssertionError: expected undefined to equal 'Good Evening'\n    at Context.it (test/indexTest.js:9:31)"
+      }
+    }
+  ],
+  "passes": []
+}
